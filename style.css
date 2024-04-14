@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.o0anKrEiv_SGRIFrCZP-vAHaEo&pid=Api&P=0&h=180);
+}
+.chessboard {
+    height: 640px;
+    width: 640px;
+    border: 25px solid brown ;
+    margin: 20px;
+    position: absolute;
+    left: 25%;
+    /* cursor: pointer; */
+
+}
+
+.chessboard div {
+    float: left;
+    font-size: 50px;
+    text-align: center;
+    /* vertical-align: middle; */
+    text-shadow: 2px 1px white;
+    
+}
+
+.chessboard .w {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+}   
+.chessboard .b {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    float: left;
+    
+}
+.chessboard :hover {
+    background-color: skyblue;
+
+  }
+.chessboard :active {
+background-color:pink ;
+font-size:80px;
+font-weight: bold ;
+/* transition-delay: 2s; */
+/* transition-duration: 2s;
+transition-timing-function: ease-in; */
+/* transition: all 2s ease-in 1s; */
+transition: width 3s;
+}
